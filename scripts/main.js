@@ -7,7 +7,7 @@ networksForm.addEventListener('submit', function(event) {
   event.preventDefault(); //prevents form from autosubmitting
   var myText = document.getElementById('user-text').value;
   var mySelector1 = document.getElementById('select-network').value;
-  var answer = document.getElementById('tarrif');
+  var answer = document.getElementById('tarrif-text');
 
   if (myText < 1000 || myText > 10000000) {
     answer.innerHTML = "TZS";
