@@ -4,24 +4,24 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* Header Styles */
 
 header {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr;
   background-color: black;
   color: white;
-  align-items: center;
+
 }
 
 .logo img {
   width: 150px;
   height: 100px;
-}
-
-nav {
-  justify-self: flex-end;
 }
 
 .navbar {
@@ -46,28 +46,62 @@ h1 {
   font-size: 1.7em;
   font-weight: 500;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+  padding: 2em;
+  line-height: 1.5;
 }
 
 h2 {
   font-size: 1.5em;
-  margin-top: 3em;
   font-weight: 700;
   
 }
 
 .container {
-  max-width: 1028px;
+  max-width: 90%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 2em;
+  grid-template-columns: 1fr;
   align-items: center;
 }
 
-.wrapper {
+/*hero styles*/
+
+article {
+  height: 80vh;
+  background-color: silver;
+}
+
+article nav ul {
+  list-style: none;
+ 
+}
+
+article nav li {
+ display: block;
+ margin: o.5em;
+}
+
+article nav .btn {
+
+  padding: 1em 0.5em;
+  margin: 1em;
+}
+
+
+.user-form {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 1.5em 2em;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.mobile-tarrifs-calc {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  
 }
 
 label {
@@ -81,15 +115,7 @@ select {
   padding: 15px 10px;
 }
 
-.user-form {
-  border: 1px solid black;
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  gap: 10px;
-  padding: 1.5em 2em;
-  align-items: center;
-  line-height: 1.5;
-}
+
 
 .user-form .btn {
   margin-top: 1.6em;
@@ -98,6 +124,7 @@ select {
 .tarrifs {
   background-color: #D82148;
   padding: 0 20px;
+  border: 1px solid black;
 }
 
 footer {
@@ -114,7 +141,7 @@ footer {
 
 
 
-
+/*
 
 @media only screen and (max-device-width: 500px) {
 
@@ -125,10 +152,6 @@ footer {
 
 
 
-  nav {
-    justify-self: center;
-
-  }
 
   .navbar li {
     list-style: none;
@@ -147,9 +170,8 @@ footer {
     
   }
 
-  .user-form {
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
+  
 
 }
+
+*/
