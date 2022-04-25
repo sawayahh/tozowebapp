@@ -69,28 +69,34 @@ h2 {
 
 /*hero styles*/
 
-article {
-  height: 70vh;
+
+
+main {
+  
   background-color: silver;
 }
 
-article nav ul {
-  list-style: none;
-  
- 
-}
 
-article nav li {
- display: block;
- margin: o.5em;
-}
 
-article nav .btn {
+
+
+ main .btn {
 
   padding: 1em 0.5em;
   margin: 1em;
+  border: 1px solid black;
+  margin: 2em ;
+  display: inline-block;
+  
 }
 
+.mobile-tarrifs {
+  margin: 50px auto;
+}
+
+.tarrif-sheets {
+  margin-bottom:  75px;
+}
 
 .tarrif-sheets ul {
   list-style: none;
