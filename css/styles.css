@@ -125,8 +125,8 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #021427;
-  height: 90vh;
   width: 100%;
+  height: 90vh;
   color: #fff;
 }
 
@@ -342,4 +342,61 @@ select {
 
 
   
+}
+
+
+@media(max-width: 350px) {
+  /* anything below 768 */
+
+  .hero {
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .section-header {
+    margin: 10px;
+  }
+
+  .hero .content nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .content h1 {
+    font-size: 1.5rem;
+  }
+
+   .hero .content p {
+     font-size: 0.8rem;
+   }
+
+  .hero .content p,
+  .hero .content h1 {
+    margin-bottom: 15px;
+  }
+
+
+
+
+  form {
+    flex-direction: column;
+
+
+  }
+
+  .flex-columns .row {
+    flex-direction: column;
+  }
+
+  .tarrifs {
+    border-left: none;
+    padding-left: none;
+  }
+
+
+
+
 }
