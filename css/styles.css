@@ -1,8 +1,6 @@
-/* Utility*/
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-
+/* Utility*/
 
 * {
   box-sizing: border-box;
@@ -31,6 +29,10 @@ h1  {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
+}
+
+h2 {
+  padding: ;
 }
 
 
@@ -92,14 +94,10 @@ img {
 
 /* Header Styles */
 
-
-
 .logo img {
   width: 100px;
   height: 70px;
 }
-
-
 
 .hero .navbar {
   display: flex;
@@ -170,31 +168,34 @@ img {
   width: 100%;
 }
 
-.flex-columns .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
 }
 
-.flex-columns .column-left {
+.flex-columns .column-1 {
   flex: 1;
+
 }
 
-.flex-columns .column-right {
+.flex-columns .column-2 {
   flex: 2;
+
 }
-
-
-
 
 .flex-columns img {
- width: 100%;
- height: 100%;
- object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+.column-heading {
+  margin: 20px 20px 0;
+}
+
+
+
+
 
 .mobile-tarrif form {
   display: flex;
@@ -220,6 +221,7 @@ select {
   height: 40px;
   width: 100%;
   padding: 10px;
+  margin: 10px 0 10px;
 }
 
 .tarrifs {
@@ -235,6 +237,9 @@ select {
   justify-content: center;
   margin: 25px 0;
 }
+
+
+
 
 .tarrif-sheets {
   display: flex;
@@ -274,11 +279,11 @@ select {
 
 }
 
-
-section {
  
-  padding: 0 20px;
-}
+ section {
+ 
+  margin: 0 20px;
+}  
 
 .footer {
   display: flex;
@@ -293,6 +298,7 @@ section {
 .footer a {
   padding: 0 20px;
 }
+
 
 
 
@@ -320,6 +326,7 @@ section {
 
   form {
     flex-direction: column;
+    
 
   }
 
