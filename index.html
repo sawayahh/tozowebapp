@@ -53,14 +53,7 @@
 
 <body>
 
-  <!-- Google Tag Manager (noscript) -->
-
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P54NK4N" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-
-  <!-- End Google Tag Manager (noscript) -->
-
-  <header class="hero">
+  <header id="hero" class="hero">
     <div id="navbar" class="navbar">
 
       <div class="logo">
@@ -69,8 +62,9 @@
 
       <nav class="menu">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="#hero">Tozo</a></li>
+          <li><a href="about.html">Kuhusu Tovuti Hii</a></li>
+          <!-- <li><a href="agent_registration.html">Line za Uwakala</a></li> -->
         </ul>
       </nav>
 
@@ -177,7 +171,7 @@
     <section id="bank-tarrif" class="bank-tarrif flex-columns">
 
       <header class="section-header">
-        <h2>Makato ya ya Benki</h2>
+        <h2>Makato ya Benki</h2>
       </header>
       <div class="row">
 
@@ -186,79 +180,75 @@
         </div>
 
 
-        
-          <div class="column-2 bg-light">
 
-            <header class="column-heading">
-              <h2>Calculator Ya Makato</h2>
-              <h3>Kutoa Pesa kwa Wakala</h3>
-            </header>
+        <div class="column-2 bg-light">
 
-
-            <form action="" class="user-form" id="networks-form">
-
-              <div class="form-control user-text">
-                <label for="user-text"></label>
-                <input type="number" name="" value="" id="user-text" placeholder="TShs" disabled>
-              </div>
-
-              <div class="form-control user-select">
-                <label for="user-select"></label>
-                <select class="" name="" id="select-network" disabled>
-                  <option value="tigopesa">Chagua Benki</option>
-                  <option value="tigopesa">CRDB</option>
-                  <option value="mpesa">NBC</option>
-                  <option value="airtelmoney">NMB</option>
-                  <option value="halopesa">Equity</option>
+          <header class="column-heading">
+            <h2>Calculator Ya Makato</h2>
+            <h3>Kutoa Pesa kwa Wakala - Benki</h3>
+          </header>
 
 
+          <form action="" class="user-form" id="networks-form">
 
-                </select>
+            <div class="form-control user-text">
+              <label for="user-text"></label>
+              <input type="number" name="" value="" id="user-text" placeholder="TShs" disabled>
+            </div>
 
-              </div>
+            <div class="form-control user-select">
+              <label for="user-select"></label>
+              <select class="" name="" id="select-network" disabled>
+                <option value="tigopesa">Chagua Benki</option>
+                <option value="tigopesa">CRDB</option>
+                <option value="mpesa">NBC</option>
+                <option value="airtelmoney">NMB</option>
+                <option value="halopesa">Equity</option>
 
-              <div class="form-control ">
-                <input type="submit" name="" value="Calculate" class="btn btn-dark" disabled>
 
-              </div>
 
-              <div class="tarrifs">
-                <h3>Jumla Ya Tozo:</h3>
-                <p id="tarrif-text">Tshs.</p>
-              </div>
-
-            </form>
-
-            <div class="tarrif-sheets">
-              <h3>Pakua Karatasi za Makato - </h3>
-              <a href="#" class="mpesa">CRDB</a>
-              <a href="#" target="_blank" class="tigopesa">NBC</a>
-              <a href="#" target="_blank" class="airtel-money">NMB</a>
-              <a href="#" class="halopesa">Equity</a>
+              </select>
 
             </div>
 
+            <div class="form-control ">
+              <input type="submit" name="" value="Calculate" class="btn btn-dark" disabled>
 
+            </div>
+
+            <div class="tarrifs">
+              <h3>Jumla Ya Tozo:</h3>
+              <p id="tarrif-text">Tshs.</p>
+            </div>
+
+          </form>
+
+          <div class="tarrif-sheets">
+            <h3>Pakua Karatasi za Makato - </h3>
+            <a href="#" class="mpesa">CRDB</a>
+            <a href="#" target="_blank" class="tigopesa">NBC</a>
+            <a href="#" target="_blank" class="airtel-money">NMB</a>
+            <a href="#" class="halopesa">Equity</a>
 
           </div>
 
 
-        
+
+        </div>
+
+
+
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="social">
-      <i class="fab fa-twitter fa-2x">
-        <a href=""></a>
-      </i>
-      <i class="fab fa-instagram fa-2x">
-        <a href=""></a>
-      </i>
-      <i class="fab fa-linkedin fa-2x">
-        <a href=""></a>
-      </i>
+
+      <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+      <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+      <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+
     </div>
 
   </footer>

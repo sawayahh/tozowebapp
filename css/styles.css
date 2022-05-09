@@ -116,7 +116,7 @@ img {
 
 .navbar a {
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 5px;
   margin: 0 5px;
 }
 
@@ -194,9 +194,6 @@ img {
 }
 
 
-
-
-
 .mobile-tarrif form {
   display: flex;
   align-items: center;
@@ -245,7 +242,6 @@ select {
 
 
 
-
 .tarrif-sheets {
   display: flex;
   align-items: center;
@@ -261,6 +257,10 @@ select {
   border: 1px solid #333;
   border-radius: 5px;
 
+}
+
+.tarrif-sheets a:hover {
+  background-color: #333;
 }
 
 
@@ -286,7 +286,6 @@ select {
 
  
  section {
- 
   margin: 0 20px;
 }  
 
@@ -302,6 +301,9 @@ select {
 
 .footer a {
   padding: 0 20px;
+}
+.footer a:hover {
+  color: #041e38;
 }
 
 
@@ -350,6 +352,46 @@ select {
 }
 
 
+/* About Page Styles */
+
+.hero.about {
+  height: 40vh;
+}
+
+.about-content {
+  background-color: #041e38;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+
+.about-main p {
+  max-width: 800px;
+  line-height: 2;
+}
+
+.hero.agent-hero {
+  background-color: #021427;
+  height: 100%;
+}
+
+/* Agent Registration Page */
+
+
+
+
+
 @media(max-width: 350px) {
   /* anything below 768 */
 
@@ -395,13 +437,6 @@ select {
   .flex-columns .row {
     flex-direction: column;
   }
-
-  .tarrifs {
-    border-left: none;
-    padding-left: none;
-  }
-
-
 
 
 
