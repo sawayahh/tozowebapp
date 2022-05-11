@@ -364,3 +364,221 @@ networksForm.addEventListener('submit', function(event) {
 
 
 });
+
+
+// Bank Tariffs
+
+var bankForm = document.getElementById('bank-form');
+
+bankForm.addEventListener('submit', function(event) {
+
+  event.preventDefault(); //prevents form from autosubmitting
+  var myText = document.getElementById('bank-user-text').value;
+  var mySelector1 = document.getElementById('select-bank').value;
+  var answer = document.getElementById('bank-tarrif-text');
+
+  if (myText < 1000 || myText > 10000000) {
+    answer.innerHTML = "TZS";
+    warning = "Not valid";
+    results = 0;
+
+  } 
+  
+  else if (myText >= 1000 && myText <= 4999 && mySelector1 === 'nmb') {
+    results = 400;
+  }
+
+  else if (myText >= 5000 && myText <= 9999 && mySelector1 === 'nmb') {
+    results = 700;
+  }
+
+  else if (myText >= 10000 && myText <= 19999 && mySelector1 === 'nmb') {
+    results = 1200;
+  }
+
+  else if (myText >= 20000 && myText <= 39999 && mySelector1 === 'nmb') {
+    results = 1500;
+  }
+
+  else if (myText >= 40000 && myText <= 49999 && mySelector1 === 'nmb') {
+    results = 1800;
+  }
+
+  else if (myText >= 50000 && myText <= 99999 && mySelector1 === 'nmb') {
+    results = 2200;
+  }
+
+  else if (myText >= 100000 && myText <= 199999 && mySelector1 === 'nmb') {
+    results = 3500;
+  }
+
+  else if (myText >= 200000 && myText <= 299999 && mySelector1 === 'nmb') {
+    results = 4700;
+  }
+
+  else if (myText >= 300000 && myText <= 399999 && mySelector1 === 'nmb') {
+    results = 5800;
+  }
+
+  else if (myText >= 400000 && myText <= 599999 && mySelector1 === 'nmb') {
+    results = 6300;
+  }
+
+  else if (myText >= 600000 && myText <= 799999 && mySelector1 === 'nmb') {
+    results = 6500;
+  }
+
+   else if (myText >= 800000 && myText <= 999999 && mySelector1 === 'nmb') {
+    results = 7000;
+  }
+
+   else if (myText >= 1000000 && myText <= 1999999 && mySelector1 === 'nmb') {
+    results = 7200;
+  }
+
+   else if (myText >= 2000000 && myText <= 1999999 && mySelector1 === 'nmb') {
+    results = 7500;
+  }
+
+  else if (myText >= 3000000 && myText <= 3999999 && mySelector1 === 'nmb') {
+    results = 8000;
+  }
+
+   else if (myText >= 4000000 && myText <= 4999999 && mySelector1 === 'nmb') {
+    results = 9500;
+  }
+
+   else if (myText >= 5000000 && myText <= 5999999 && mySelector1 === 'nmb') {
+    results = 9800;
+  }
+
+   else if (myText >= 6000000 && myText <= 6999999 && mySelector1 === 'nmb') {
+    results = 10700;
+  }
+
+   else if (myText >= 7000000 && myText <= 7999999 && mySelector1 === 'nmb') {
+    results = 12600;
+  }
+
+   else if (myText >= 8000000 && myText <= 8999999 && mySelector1 === 'nmb') {
+    results = 13900;
+  }
+
+   else if (myText >= 9000000 && myText <= 10000000 && mySelector1 === 'nmb') {
+    results = 15000;
+  }
+
+
+  //CRDB
+
+  else if (myText >= 1000 && myText <= 1999 && mySelector1 === 'crdb') {
+    results = 300;
+  }
+
+  else if (myText >= 2000 && myText <= 2999 && mySelector1 === 'crdb') {
+    results = 350;
+  }
+
+  else if (myText >= 3000 && myText <= 4999 && mySelector1 === 'crdb') {
+    results = 400;
+  }
+
+  else if (myText >= 5000 && myText <= 6999 && mySelector1 === 'crdb') {
+    results = 750;
+  }
+
+  else if (myText >= 7000 && myText <= 9999 && mySelector1 === 'crdb') {
+    results = 800;
+  }
+
+   else if (myText >= 10000 && myText <= 19999 && mySelector1 === 'crdb') {
+    results = 1350;
+  }
+
+  else if (myText >= 20000 && myText <= 29999 && mySelector1 === 'crdb') {
+    results = 1650;
+  }
+
+   else if (myText >= 30000 && myText <= 49999 && mySelector1 === 'crdb') {
+    results = 1800;
+  }
+
+   else if (myText >= 50000 && myText <= 99999 && mySelector1 === 'crdb') {
+    results = 2550;
+  }
+
+  else if (myText >= 100000 && myText <= 199999 && mySelector1 === 'crdb') {
+    results = 3500;
+  }
+
+   else if (myText >= 200000 && myText <= 299999 && mySelector1 === 'crdb') {
+    results = 4900;
+  }
+
+   else if (myText >= 300000 && myText <= 399999 && mySelector1 === 'crdb') {
+    results = 5900;
+  }
+
+  
+   else if (myText >= 400000 && myText <= 599999 && mySelector1 === 'crdb') {
+    results = 6500;
+  }
+
+  else if (myText >= 600000 && myText <= 999999 && mySelector1 === 'crdb') {
+    results = 7000;
+  }
+
+  else if (myText >= 1000000 && myText <= 1999999 && mySelector1 === 'crdb') {
+    results = 7500;
+  }
+
+  else if (myText >= 2000000 && myText <= 2999999 && mySelector1 === 'crdb') {
+    results = 8000;
+  }
+
+   else if (myText >= 3000000 && myText <= 3999999 && mySelector1 === 'crdb') {
+    results = 9000;
+  }
+
+  else if (myText >= 4000000 && myText <= 6000000 && mySelector1 === 'crdb') {
+    results = 9900;
+  }
+
+   else if (myText >= 6000001 && myText <= 7999999 && mySelector1 === 'crdb') {
+    results = 11000;
+  }
+
+  else if (myText >= 8000000 && myText <= 9999999 && mySelector1 === 'crdb') {
+    results = 13000;
+  }
+
+  else if (myText >= 10000000 && myText <= 19999999 && mySelector1 === 'crdb') {
+    results = 15000;
+  }
+
+  else if (myText >= 20000000 && myText <= 25000000 && mySelector1 === 'crdb') {
+    results = 20000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  results = Number(results).toLocaleString();
+  answer.innerHTML = "Tshs: " + results;
+
+
+});
+
+
