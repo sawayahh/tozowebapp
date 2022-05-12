@@ -564,17 +564,6 @@ bankForm.addEventListener('submit', function(event) {
 
 
 
-
-
-
-
-
-
-
-
-  
-
-
   results = Number(results).toLocaleString();
   answer.innerHTML = "Tshs: " + results;
 
