@@ -21,7 +21,8 @@ header.tables .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 400px;
+  /* min-width: 400px; */
+  padding: 0 20px;
    
 }
 
@@ -61,13 +62,20 @@ header.tables .navbar {
   padding: 3px 4px;
 }
 
+.table_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+
 .tariff-table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
-  min-width: 400px;
-  margin: auto;
+  /* min-width: 400px; */
+  
   border-bottom: 2px solid #f3f3f3;
+ 
 }
 
 .tariff-table thead tr {
