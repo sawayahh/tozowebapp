@@ -250,14 +250,45 @@ select {
   padding: 20px;
 }
 
-.tarrif-sheets a {
+.tariff-links {
+
   color: #28a745;
   padding: 3px 5px;
   margin: 5px 5px;
   /* font-weight: bold; */
-  border: 1px solid #333;
+ 
   border-radius: 5px;
 
+}
+
+.tariff-links.mpesa {
+  background-color: red;
+  color: #fff;
+}
+
+.tariff-links.tigopesa {
+  background-color: blue;
+  color: #fff;
+}
+
+.tariff-links.airtelmoney {
+  background-color: rgb(219, 20, 20);
+  color: #fff;
+}
+
+.tariff-links.halopesa {
+  background-color: orangered;
+  color: #fff;
+}
+
+.tariff-links.eazypesa {
+  background-color: rgb(98, 163, 0);
+  color: #fff;
+}
+
+.tariff-links.azampesa {
+  background-color: rgb(35, 150, 189);
+  color: #fff;
 }
 
 .tarrif-sheets a:hover {
