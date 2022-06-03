@@ -29,11 +29,16 @@ h1  {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
+  font-family: "Playfair Display, Arial, Tahoma, sans-serif";
 }
 
-h2 {
-  padding: ;
+h2{
+   font-family: "Playfair Display, Arial, Tahoma, sans-serif";
+   font-size: 2rem;
+   margin: 0;
 }
+
+
 
 
 
@@ -41,9 +46,7 @@ p {
   margin: 10px 0;
 }
 
-img {
-  width: 100%;
-}
+
 
 
 
@@ -107,6 +110,7 @@ img {
   align-items: center;
   color: #fff;
   padding: 5px 0;
+  background-color: #06105C;
 }
 
 .navbar ul {
@@ -125,7 +129,6 @@ img {
 .hero {
   display: flex;
   flex-direction: column;
-  background-color: #021427;
   width: 100%;
   height: 90vh;
   color: #fff;
@@ -140,8 +143,9 @@ img {
   width: 100%;
   height: 100%;
   padding: 20px;
-  background-color: #041e38;
-}
+  background-color: #283387;
+  border-bottom-left-radius: 10rem;
+ }
 
 .hero .content h1 {
   margin-bottom: 50px;
@@ -172,28 +176,42 @@ img {
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
   height: 100%;
+  
 }
 
 .flex-columns .column-1 {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  
 }
 
 .flex-columns .column-2 {
   flex: 2;
+  background-color: #F4F5F8;
+  border-radius: 1rem;
+  padding: 0 1.5rem;
 
 }
 
 .flex-columns img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+  
 }
+
+
 
 .column-heading {
   margin: 20px 20px 0;
 }
 
+.user-form {
+  background-color: #FFFFFF;
+}
 
 .mobile-tarrif form {
   display: flex;
@@ -202,6 +220,7 @@ img {
   border-radius: 5px;
   padding: 10px;
   margin: 20px;
+  
 
 }
 
@@ -326,7 +345,7 @@ select {
   align-items: center;
   justify-content: center;
   height: 100px;
-  background-color: #333;
+  background-color: #0d1444;
   color: #f4f4f4;
   margin-top: 100px;
 }
