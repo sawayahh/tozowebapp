@@ -94,6 +94,9 @@ p {
   border: 1px solid #fff;
 }
 
+.btn-calculate {
+  background-color: #283387;
+}
 
 /* Header Styles */
 
@@ -191,7 +194,7 @@ p {
 .flex-columns .column-2 {
   flex: 2;
   background-color: #F4F5F8;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 0 1.5rem;
 
 }
@@ -211,18 +214,15 @@ p {
 
 .user-form {
   background-color: #FFFFFF;
-}
-
-.mobile-tarrif form {
   display: flex;
   align-items: center;
-  border: 1px solid #333;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 2rem;
+  padding: 2.5rem 1.5rem;
   margin: 20px;
   
-
 }
+
+
 
 .mobile-tarrif form div {
   flex: 1;
@@ -236,13 +236,17 @@ input,
 select {
   box-sizing: border-box;
   height: 40px;
-  width: 100%;
+  width: 11rem;
   padding: 10px;
   margin: 10px 0 10px;
+  background-color: #e9e5e5;
+  border-radius: 0.8rem;
+  border: none;
 }
 
+
+
 .tarrifs {
-  border-left: 2px solid #333;
   padding-left: 20px;
 }
 
@@ -319,15 +323,7 @@ select {
   flex-direction: row-reverse;
 }
 
-.bank-tarrif form {
-  display: flex;
-  align-items: center;
-  border: 1px solid #333;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 20px;
 
-}
 
 .bank-tarrif form div {
   flex: 1;
