@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+
+
 /* Utility*/
 
 * {
@@ -29,13 +31,19 @@ h1  {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
-  font-family: "Playfair Display, Arial, Tahoma, sans-serif";
+  font-family: 'Roboto', sans-serif;
 }
 
 h2{
-   font-family: "Playfair Display, Arial, Tahoma, sans-serif";
+   font-family: 'Roboto', sans-serif;
    font-size: 2rem;
    margin: 0;
+}
+
+h4 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 
@@ -147,7 +155,8 @@ p {
   height: 100%;
   padding: 20px;
   background-color: #283387;
-  border-bottom-left-radius: 10rem;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
  }
 
 .hero .content h1 {
@@ -242,6 +251,7 @@ select {
   background-color: #e9e5e5;
   border-radius: 0.8rem;
   border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 
